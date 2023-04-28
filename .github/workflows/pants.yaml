@@ -10,8 +10,8 @@ on: [push, pull_request]
 jobs:
   org-check:
     name: Check GitHub Organization
-    if: ${{ github.repository_owner == 'pantsbuild' }}
-    runs-on: ubuntu-20.04
+    if: ${{ github.repository_owner == 'MartinBernstorff' }}
+    runs-on: ubuntu-latest
     steps:
       - name: Noop
         run: "true"
@@ -60,7 +60,6 @@ jobs:
       run: |
         # We also smoke test that our release process will work by running `package`.
         pants package ::
-        pants run helloworld/main.py
     - name: Upload pants log
       uses: actions/upload-artifact@v3
       with:
