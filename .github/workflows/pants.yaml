@@ -8,16 +8,8 @@ name: Pants
 on: [push, pull_request]
 
 jobs:
-  org-check:
-    name: Check GitHub Organization
-    if: ${{ github.repository_owner == 'MartinBernstorff' }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Noop
-        run: "true"
   build:
     name: Perform CI Checks
-    needs: org-check
     runs-on: ubuntu-20.04
     strategy:
       matrix:
