@@ -37,7 +37,7 @@ repo_id = "3B1D361B-E9F1-49A8-B761-03DCC41FD58E"
 
 [source]
 # The Python source root is the repo root. See https://www.pantsbuild.org/docs/source-roots.
-root_patterns = ["/"]
+root_patterns = ["src/"]
 
 [python]
 # The default interpreter constraints for code in this repo. Individual targets can override
