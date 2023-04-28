@@ -25,6 +25,7 @@ def test_load_lookbehind_exceeds_lookbehind_threshold(
     n_cols_after_filtering = load_and_filter_train_from_cfg(cfg=cfg).shape[1]
 
     assert n_cols_before_filtering - n_cols_after_filtering == 2
+    print("Testing")
 
 
 def test_load_lookbehind_not_in_lookbehind_combination(
