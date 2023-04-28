@@ -1,7 +1,7 @@
 from pathlib import Path
 
 import pandas
-import pytest
+import pytest  # pants: no-infer-dep
 
 
 @pytest.fixture()
