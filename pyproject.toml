@@ -8,7 +8,24 @@ packages = [{include = "src/psycop"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-pandas = "^1.0.0"
+pandas = ">=1.0.0"
+scikit-learn = ">=1.1.1"
+xgboost = ">=1.6.1"
+hydra-core = ">=1.1.13"
+plotly = ">=5.8.2"
+matplotlib = ">=3.5.2"
+wandb = ">=0.12.21"
+tabulate = ">=0.8.10"
+optuna = ">=2.10.1"
+hydra-optuna-sweeper = ">=1.2.0"
+hydra-joblib-launcher = ">=1.2.0"
+selenium = ">=4.2.0"
+pyarrow = ">=9.0.0"
+Random-Word = ">=1.0.11"
+diskcache = ">=5.4.0"
+psycopmlutils = ">=0.3.0"
+Levenshtein = ">=0.20.0"
+seaborn = ">=0.10.1"
 
 
 [build-system]
