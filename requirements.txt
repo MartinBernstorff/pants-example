@@ -1,19 +1,4 @@
 # Copyright 2020 Pants project contributors.
 # Licensed under the Apache License, Version 2.0 (see LICENSE).
 pandas
-scikit-learn
-xgboost
-wandb
-optuna
-hydra-core
-hydra-optuna-sweeper
-hydra-joblib-launcher
-selenium
-seaborn
-Random-Word
-Levenshtein
-seaborn
-pydantic
-openpyxl
-tableone
 plotnine

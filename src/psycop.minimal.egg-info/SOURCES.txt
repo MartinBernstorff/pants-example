@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/psycop.minimal.egg-info/PKG-INFO
+src/psycop.minimal.egg-info/SOURCES.txt
+src/psycop.minimal.egg-info/dependency_links.txt
+src/psycop.minimal.egg-info/top_level.txt
+src/psycop/minimal/__init__.py
+src/psycop/minimal/minimal.py
+src/psycop/minimal/tests/conftest.py
+src/psycop/minimal/tests/test_minimal.py

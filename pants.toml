@@ -51,7 +51,6 @@ interpreter_constraints = ["==3.9.*"]
 # https://www.pantsbuild.org/docs/python-third-party-dependencies. This also adds the
 # `generate-lockfiles` goal for Pants to generate the lockfile for you.
 enable_resolves = true
-resolves_generate_lockfiles = false
 
 resolves = { python-default = "python-default.lock"}
 
