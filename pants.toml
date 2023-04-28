@@ -55,3 +55,11 @@ resolves = { python-default = "pants.lock"}
 #  problematic system Pythons. See
 #  https://www.pantsbuild.org/docs/python-interpreter-compatibility#changing-the-interpreter-search-path.
 search_path = ["<PATH>", "<PYENV>"]
+
+[pytest]
+lockfile = "<none>"
+xdist_enabled = "True"
+extra_requirements.add = [
+  "hydra-optuna-sweeper>=1.2.0",
+  "hydra-joblib-launcher>=1.2.0",
+]
