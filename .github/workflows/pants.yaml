@@ -44,7 +44,7 @@ jobs:
         pants tailor --check update-build-files --check ::
     - name: Test
       run: |
-        pants test --changed-since=origin/main --changed-dependees=transitive
+        pants test ::
     - name: Package / Run
       run: |
         # We also smoke test that our release process will work by running `package`.
