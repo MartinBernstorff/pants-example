@@ -19,6 +19,7 @@
 //     "optuna>=2.10.1",
 //     "pandas>=1.0.0",
 //     "plotly>=5.8.2",
+//     "polars<0.18.0,>=0.17.9",
 //     "pyarrow>=9.0.0",
 //     "scikit-learn>=1.1.1",
 //     "seaborn>=0.10.1",
@@ -1771,6 +1772,56 @@
           "artifacts": [
             {
               "algorithm": "sha256",
+              "hash": "be101c256d989292a9b72f253ad55d635d0cabb6b4a17df1ca5e135f80d07457",
+              "url": "https://files.pythonhosted.org/packages/b0/04/64b41cd24592ff7f74ba125cc7a119acf4b2a13f6cea295e27af64bdd21c/polars-0.17.9-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "a5e5092d633ee641c65161e681e7995b6ba754c3ed5336d2ee7fbee971f3ba85",
+              "url": "https://files.pythonhosted.org/packages/12/11/335a7c45fd327ff66079275d918b2009d137bef1079a66c88b9054aa83c3/polars-0.17.9.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "6204b147708c6b8a8c330e7889524cda9b76f5f858a95e53b9eaa7e5821ce696",
+              "url": "https://files.pythonhosted.org/packages/87/d0/848890ab6dbe5c497990a8cc8d6732cf6bf8a273b7de85579742d4210596/polars-0.17.9-cp37-abi3-macosx_10_7_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "41a744bf181b30af5cfa7f75cf29eff037b6226e5768f61b7067adda2bdfbf3e",
+              "url": "https://files.pythonhosted.org/packages/89/3a/f72f59108a603666b60cdf4c8a0b10664238eafcd5aa4e9a0d5a7c46ebec/polars-0.17.9-cp37-abi3-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "367e58adb99e52d1515809ec352dc6128c3fd5c11cb69393726373343cfc7edd",
+              "url": "https://files.pythonhosted.org/packages/fe/5d/7b0ff148e7eab905f7c60eec51995bdd340f28df09978df040e2cd80cfc3/polars-0.17.9-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            }
+          ],
+          "project_name": "polars",
+          "requires_dists": [
+            "backports.zoneinfo; python_version < \"3.9\" and extra == \"timezone\"",
+            "connectorx; extra == \"connectorx\"",
+            "deltalake>=0.8.0; extra == \"deltalake\"",
+            "fsspec; extra == \"fsspec\"",
+            "matplotlib; extra == \"matplotlib\"",
+            "numpy>=1.16.0; extra == \"numpy\"",
+            "pandas; extra == \"pandas\"",
+            "pandas; extra == \"sqlalchemy\"",
+            "polars[connectorx,deltalake,fsspec,matplotlib,numpy,pandas,pyarrow,sqlalchemy,timezone,xlsx2csv,xlsxwriter]; extra == \"all\"",
+            "pyarrow>=7.0.0; extra == \"pandas\"",
+            "pyarrow>=7.0.0; extra == \"pyarrow\"",
+            "sqlalchemy; extra == \"sqlalchemy\"",
+            "typing_extensions>=4.0.1; python_version < \"3.11\"",
+            "tzdata; platform_system == \"Windows\" and extra == \"timezone\"",
+            "xlsx2csv>=0.8.0; extra == \"xlsx2csv\"",
+            "xlsxwriter; extra == \"xlsxwriter\""
+          ],
+          "requires_python": ">=3.7",
+          "version": "0.17.9"
+        },
+        {
+          "artifacts": [
+            {
+              "algorithm": "sha256",
               "hash": "f4aaf2ed6e6062a82fd2e6e5289bbbe705ec2788fe401a3a1f62a1cea55526d2",
               "url": "https://files.pythonhosted.org/packages/7a/cd/bec5850e23eb005c6fe30fe4c26bafd9a07b3d2524771f22a0fa01270078/prettytable-3.7.0-py3-none-any.whl"
             },
@@ -3188,6 +3239,7 @@
     "optuna>=2.10.1",
     "pandas>=1.0.0",
     "plotly>=5.8.2",
+    "polars<0.18.0,>=0.17.9",
     "pyarrow>=9.0.0",
     "scikit-learn>=1.1.1",
     "seaborn>=0.10.1",

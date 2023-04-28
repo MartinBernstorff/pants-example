@@ -1418,6 +1418,39 @@ dev = ["pre-commit", "tox"]
 testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
+name = "polars"
+version = "0.17.9"
+description = "Blazingly fast DataFrame library"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "polars-0.17.9-cp37-abi3-macosx_10_7_x86_64.whl", hash = "sha256:6204b147708c6b8a8c330e7889524cda9b76f5f858a95e53b9eaa7e5821ce696"},
+    {file = "polars-0.17.9-cp37-abi3-macosx_11_0_arm64.whl", hash = "sha256:41a744bf181b30af5cfa7f75cf29eff037b6226e5768f61b7067adda2bdfbf3e"},
+    {file = "polars-0.17.9-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:367e58adb99e52d1515809ec352dc6128c3fd5c11cb69393726373343cfc7edd"},
+    {file = "polars-0.17.9-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:be101c256d989292a9b72f253ad55d635d0cabb6b4a17df1ca5e135f80d07457"},
+    {file = "polars-0.17.9-cp37-abi3-win_amd64.whl", hash = "sha256:40ea33de8705ffae18f6ce1abc5d02ea84bdb4a8fa43c12fb226e1336c151147"},
+    {file = "polars-0.17.9.tar.gz", hash = "sha256:a5e5092d633ee641c65161e681e7995b6ba754c3ed5336d2ee7fbee971f3ba85"},
+]
+
+[package.dependencies]
+typing_extensions = {version = ">=4.0.1", markers = "python_version < \"3.11\""}
+
+[package.extras]
+all = ["polars[connectorx,deltalake,fsspec,matplotlib,numpy,pandas,pyarrow,sqlalchemy,timezone,xlsx2csv,xlsxwriter]"]
+connectorx = ["connectorx"]
+deltalake = ["deltalake (>=0.8.0)"]
+fsspec = ["fsspec"]
+matplotlib = ["matplotlib"]
+numpy = ["numpy (>=1.16.0)"]
+pandas = ["pandas", "pyarrow (>=7.0.0)"]
+pyarrow = ["pyarrow (>=7.0.0)"]
+sqlalchemy = ["pandas", "sqlalchemy"]
+timezone = ["backports.zoneinfo", "tzdata"]
+xlsx2csv = ["xlsx2csv (>=0.8.0)"]
+xlsxwriter = ["xlsxwriter"]
+
+[[package]]
 name = "prettytable"
 version = "3.7.0"
 description = "A simple Python library for easily displaying tabular data in a visually appealing ASCII table format"
@@ -2511,4 +2544,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "4f427933e2b8beb57e12e8477450a4a5d1c745881bb10e7fd73c88266d6e55c5"
+content-hash = "67d7c187d262ebf1c13e66499e44b8a89e2463dbab4b6ca1040ad537f5f5acfc"
