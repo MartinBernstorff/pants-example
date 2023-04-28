@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "psycop"
+version = "0.1.0"
+description = ""
+authors = ["Martin Bernstorff <martinbernstorff@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src/psycop"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

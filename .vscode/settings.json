@@ -6,7 +6,7 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
-        "**/BUILD": true,
+        "**/BUILD": false,
         "**/.pytest_cache": true
     },
     "python.testing.pytestArgs": [
@@ -14,4 +14,5 @@
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
+    "explorerExclude.backup": {},
 }
