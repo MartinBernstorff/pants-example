@@ -2,3 +2,24 @@
 # Licensed under the Apache License, Version 2.0 (see LICENSE).
 pandas
 plotnine
+pydantic
+openpyxl
+tableone
+pandas
+scikit-learn
+xgboost
+hydra-core
+plotly
+matplotlib
+wandb
+tabulate
+optuna
+hydra-optuna-sweeper
+hydra-joblib-launcher
+selenium
+pyarrow
+Random-Word
+diskcache
+psycopmlutils
+Levenshtein
+seaborn
